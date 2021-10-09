@@ -1,4 +1,4 @@
-echo “Enter the directory name:”
-read newdir
-mkdir $newdir
-echo “Directory has been successfully created.”
+echo "Enter a String: "
+read str
+subStr=${str:0:4}
+echo "After Slicing the string is-> $subStr"
